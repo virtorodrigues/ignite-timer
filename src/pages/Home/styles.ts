@@ -12,6 +12,11 @@ export const HomeContainer = styled.div`
     align-items: center;
     gap: 3.5rem;
   }
+
+  @media (max-width: 768px) {
+    align-items: flex-start;
+    margin-top: 5rem;
+  }
 `
 
 const BaseButton = styled.button`
