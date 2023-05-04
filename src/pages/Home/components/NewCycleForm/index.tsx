@@ -9,7 +9,7 @@ export function NewCycleForm() {
   const { register } = useFormContext()
 
   return (
-    <FormContainer>
+    <FormContainer disabled={!!activeCycle}>
       <label htmlFor="task">Vou trabalhar em</label>
       <TaskInput
         type="text"

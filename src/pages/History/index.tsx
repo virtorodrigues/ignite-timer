@@ -2,7 +2,6 @@ import { useContext } from 'react'
 import { HistoriContainer, HistoryList, Status } from './styles'
 import { CyclesContext } from '../../context/CyclesContext'
 import { formatDistanceToNow } from 'date-fns'
-import { Helmet } from 'react-helmet'
 
 import ptBR from 'date-fns/locale/pt-BR'
 
@@ -10,8 +9,6 @@ export function History() {
   const { cycles } = useContext(CyclesContext)
   return (
     <>
-      <Helmet title="Histórico | Ignite timer" />
-
       <HistoriContainer>
         <h1>Meu historico</h1>
 
