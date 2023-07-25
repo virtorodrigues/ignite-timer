@@ -1,5 +1,5 @@
 # Ignite timer
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/virtorodrigues/ignite-timer/blob/master/LICENCE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/virtorodrigues/ignite-timer/blob/master/LICENSE) 
 
 # Sobre o projeto
 
